@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "SIIAU Captcha",
+	"author": "notroaloch",
+	"description": "Extensión para eliminar el captcha de SIIAU y mejorarlo con una versión Tsurito. Que siga la mata dando viejo, arriba la bandera CT",
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": ["https://siiauescolar.siiau.udg.mx/*"],
+			"run_at": "document_end",
+			"all_frames": true,
+			"js": ["content.js"]
+		}
+	]
+}

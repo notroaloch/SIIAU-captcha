@@ -1,6 +1,6 @@
 # SIIAU Captcha
 
-Extensión para eliminar el captcha de SIIAU
+Extensión de Google Chrome para eliminar el captcha de SIIAU
 
 ### Instalación
 
